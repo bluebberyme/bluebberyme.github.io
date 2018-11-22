@@ -1,0 +1,113 @@
+body
+{
+font-size: 16px;
+background-color: #D8E9F3;
+font-family: 'Inconsolata', monospace;
+}
+
+h1
+{
+font-size: 60px;
+text-shadow: 2px 2px 0 #ffffff;
+color: #456DB9;
+text-align: center;
+}
+
+h3
+{
+font-size: 18px;
+
+color: #456DB9;
+text-align: center;
+}
+
+
+
+h2
+{
+font-size: 36px;
+color: #456DB9;
+text-align: center;
+}
+
+h4
+{
+font-size: 12px;
+color: #456DB9;
+}
+
+p
+{
+font-size: 14px;
+color: #456DB9;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+
+
+}
+
+}
+
+.block-1 {
+  width: 20%x;
+  height: 20%;
+  position: relative;
+  z-index: -100;
+  top: -20%;
+}
+
+.block-2 {
+top: 350px;
+width: 15%;
+z-index: 100;
+position: absolute;
+left: 40%;
+bottom: 0x;
+z-index: 100;
+rotate: 10deg;
+}
+
+
+.block-3 {
+top: 200px;
+width: 15%;
+z-index: 100;
+position: absolute;
+left: 40%;
+bottom: 0x;
+z-index: 100;
+rotate: 10deg;
+}
+
+.box {
+  display: inline-block;
+  margin: 30px;
+
+}
+
+
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 260px;
+    background-color: #AEC2E8;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.content {
+  min-height: calc(100vh - 60px);
+}
