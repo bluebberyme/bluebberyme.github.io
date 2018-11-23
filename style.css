@@ -103,7 +103,7 @@ rotate: 10deg;
 }
 
 .box {
-  display: inline-block;
+  display: inline-block	;
   margin: 30px;
 Padding: 10px;
 
@@ -208,10 +208,11 @@ transition-duration: 2s;
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 260px;
+    height: 700px;
     background-color: #AEC2E8;
     color: white;
     text-align: center;
+
 
 }
 
@@ -221,14 +222,15 @@ transition-duration: 2s;
 
 .button {
   
-height:40px;
+height:36px;
+width: 60px;
 border-radius: 10%;
-  border-style: solid;
-  border-color: #AEC2E8;
+border-style: solid;
+border-color: #AEC2E8;
 background-color: #AEC2E8;
-width: 100px;
 transition: width 1s;
 transition-timing-function: ease-in;
+text-align: center;
 
 }
 
@@ -240,7 +242,7 @@ background-color: #ffffff;
 border-radius: 10%;
 border-style: solid;
 transform: scale 10px;
-width: 150px;
+width: 130px;
 }
 
 
